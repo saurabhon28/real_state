@@ -13,7 +13,7 @@ function Footer() {
 
   const handleClick = () => {
     axios
-      .post("http://localhost:3000/api/register", {
+      .post("https://real-state-muqm.onrender.com/api/register", {
         email,
       })
       .then((res) => {

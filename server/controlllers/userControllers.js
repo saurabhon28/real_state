@@ -1,4 +1,5 @@
 const User = require("../models/userModel");
+const userModel = require("../models/userModel");
 
 module.exports.register = async (req, res, next) => {
   try {
@@ -14,5 +15,14 @@ module.exports.register = async (req, res, next) => {
     return res.json({ status: true, user });
   } catch (ex) {
     next(ex);
+  }
+};
+
+module.exports.getUsers = async (req, res) => {
+  const data = await userModel.find({});
+  if (data) {
+    return res.send({ code: 200, message: "Success", data: data });
+  } else {
+    return res.send({ code: 500, message: "Service Error" });
   }
 };
