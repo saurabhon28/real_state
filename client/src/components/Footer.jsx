@@ -120,12 +120,6 @@ function Footer() {
         </div>
       </div>
       <div className="vector-parent">
-        <img
-          className="frame-inner"
-          loading="lazy"
-          alt=""
-          src="/line-200.svg"
-        />
         <div className="frame-parent5">
           <div className="youtube-parent">
             <FaYoutube className="youtube-icon" />
