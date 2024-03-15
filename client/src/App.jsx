@@ -4,13 +4,15 @@ import Footer from "./components/Footer";
 import Guide from "./components/Guide";
 import Header from "./components/Header";
 import Services from "./components/Services";
+import HomeImage1 from "./assets/images/home1.png";
+import HomeImage2 from "./assets/images/home2.png";
 
 function App() {
   return (
     <>
       <Header />
       <Dreams />
-      <img className="test-1-1" alt="" src="./images/home1.png" />
+      <img className="test-1-1" alt="" src={HomeImage1} />
       <section className="prototype-inner"></section>
       <Guide />
       <Services />
@@ -20,7 +22,7 @@ function App() {
             className="image-203-flattened"
             loading="lazy"
             alt=""
-            src="./images/home2.png"
+            src={HomeImage2}
           />
           <div className="prediction-engine" />
         </div>
