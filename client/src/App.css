@@ -1,0 +1,88 @@
+.frame-child,
+.test-1-1 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.test-1-1 {
+  align-self: stretch;
+  max-height: 100%;
+}
+.frame-child {
+  height: 640px;
+  flex: 1;
+  border-radius: 240px 240px 0 0;
+}
+.image-processor-wrapper,
+.prototype-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.prototype-inner {
+  align-self: stretch;
+  height: 748px;
+  padding: 0 0 108px;
+}
+.image-processor-wrapper {
+  width: 1084px;
+  padding: 0 0 133px 20px;
+}
+.image-203-flattened {
+  position: absolute;
+  top: 224px;
+  left: 0;
+  width: 1439px;
+  height: 862px;
+  object-fit: cover;
+}
+.prediction-engine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(93.39deg, #c5d9e0, #a7c8d7 46.79%, #9fc7d7);
+  width: 1440px;
+  height: 235px;
+  z-index: 1;
+}
+.speech-recognition-model {
+  height: 1086px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.prototype,
+.speech-recognition-model-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.speech-recognition-model-wrapper {
+  margin-right: -1px;
+  margin-bottom: 95px;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1px 0 0;
+  max-width: 100%;
+}
+.prototype {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 50px 0 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .prototype-inner {
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,168 @@
+.connecting-dreams-to {
+  margin: 0;
+  font-weight: 800;
+}
+.your-premier1 {
+  font-weight: 700;
+}
+.your-premier {
+  margin: 0;
+  color: #2c8fb5;
+}
+.real-estate-marketplace {
+  margin: 0;
+  font-weight: 800;
+}
+.connecting-dreams-to-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 80px;
+  font-family: inherit;
+}
+.where-every-search {
+  width: 335px;
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.connecting-dreams-to-reality-y-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.explore2 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  line-height: 26px;
+  font-family: Lato;
+  color: #fff;
+  text-align: left;
+}
+.arrow-forward-resting-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.primary-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 16px 16px 24px;
+  background-color: #3a7dff;
+  height: 58px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 16px;
+  white-space: nowrap;
+}
+.primary-button1:hover,
+.primary-button2:hover {
+  background-color: #5496ff;
+}
+.explore3 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  line-height: 26px;
+  font-family: Lato;
+  color: #fff;
+  text-align: left;
+}
+.arrow-forward-resting-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.primary-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 16px 16px 24px;
+  background-color: #3a7dff;
+  height: 58px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 13px;
+  white-space: nowrap;
+}
+.frame-parent,
+.frame-section,
+.primary-button-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.primary-button-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+}
+.frame-parent,
+.frame-section {
+  box-sizing: border-box;
+}
+.frame-parent {
+  width: 1257px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 0 0;
+  gap: 40px;
+}
+.frame-section {
+  width: 1341px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 61px 20px;
+  text-align: center;
+  font-size: 72px;
+  color: #071a45;
+  font-family: Lato;
+}
+@media screen and (max-width: 750px) {
+  .connecting-dreams-to-container {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .primary-button-parent {
+    flex-wrap: wrap;
+    gap: 80px 40px;
+  }
+  .frame-parent {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connecting-dreams-to-container {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .where-every-search {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .primary-button-parent {
+    gap: 80px 20px;
+  }
+}
