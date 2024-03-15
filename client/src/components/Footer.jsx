@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
   const handleClick = () => {
     axios
       .post(
-        "https://real-state-muqm.onrender.com/api/register" ||
+        "https://real-state-fiv3.onrender.com/api/register" ||
           "http://localhost:3000/api/register ",
         {
           email,
