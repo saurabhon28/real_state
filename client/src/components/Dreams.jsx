@@ -1,4 +1,5 @@
 import "./dreams.css";
+import arrow from "../assets/images/arrow.svg";
 
 function Dreams() {
   return (
@@ -20,20 +21,12 @@ function Dreams() {
           <button className="primary-button1">
             <div className="explore2">Find Your Home</div>
 
-            <img
-              className="arrow-forward-resting-icon2"
-              alt=""
-              src="../images/arrow.svg"
-            />
+            <img className="arrow-forward-resting-icon2" alt="" src={arrow} />
           </button>
           <button className="primary-button2">
             <div className="explore3">List Your Property</div>
 
-            <img
-              className="arrow-forward-resting-icon3"
-              alt=""
-              src="../images/arrow.svg"
-            />
+            <img className="arrow-forward-resting-icon3" alt="" src={arrow} />
           </button>
         </div>
       </div>

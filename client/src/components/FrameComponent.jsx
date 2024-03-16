@@ -3,21 +3,18 @@ import "./frameComponent.css";
 const FrameComponent = () => {
   const servicesData = [
     {
-      line202: "/line-202-1.svg",
       searchEngine: "02",
       detailedListings: "Detailed Listings",
       everyDetailMattersSellers:
         "Every Detail Matters. Sellers can list, and buyers can explore properties that meet their exact specifications.",
     },
     {
-      line202: "/line-202-2.svg",
       searchEngine: "03",
       detailedListings: "Direct Messaging",
       everyDetailMattersSellers:
         "Seamless Communication. Connect directly with sellers or buyers to ask questions, negotiate, and make decisions.",
     },
     {
-      line202: "/line-202-3.svg",
       searchEngine: "04",
       detailedListings: "Secure Payments",
       everyDetailMattersSellers:

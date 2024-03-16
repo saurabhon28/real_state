@@ -1,4 +1,8 @@
 import "./perfectHome.css";
+import image1 from "../assets/images/img1.png";
+import image2 from "../assets/images/img2.png";
+import image3 from "../assets/images/img3.png";
+import image4 from "../assets/images/img4.png";
 
 function PerfectHome() {
   const homeData = [
@@ -6,28 +10,28 @@ function PerfectHome() {
       heading: "Discover Your Perfect Home",
       paragraph:
         "Use our advanced filters to narrow down your search. Specify everything from location to amenities, ensuring you find the property that feels right.",
-      image: "../images/img1.png",
+      image: image1,
       learnMore: "Learn More",
     },
     {
       heading: "Showcase Your Property",
       paragraph:
         "List your property with ease. Fill in detailed forms to highlight every feature, attracting the perfect buyer directly.",
-      image: "../images/img2.png",
+      image: image2,
       learnMore: "Learn More",
     },
     {
       heading: "Connect and Communicate",
       paragraph:
         "Our platform facilitates direct communication between buyer and seller, making negotiations transparent and straightforward.",
-      image: "../images/img3.png",
+      image: image3,
       learnMore: "Learn More",
     },
     {
       heading: "Seal the Deal Securely",
       paragraph:
         "Advance payments made safe. Secure your agreement with confidence, and step closer to your dream property.",
-      image: "../images/img4.png",
+      image: image4,
       learnMore: "Learn More",
     },
   ];
