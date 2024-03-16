@@ -1,45 +1,51 @@
+/* Define styles for image */
 .image-199-icon {
   height: 320px;
   width: 320px;
-  position: relative;
   border-radius: 40px;
   object-fit: cover;
 }
+
+/* Define styles for heading */
 .discover-your-perfect {
   margin: 0;
   height: 58px;
-  position: relative;
   font-size: 48px;
   font-weight: 600;
-  font-family: inherit;
   color: #071a45;
   display: inline-block;
 }
+
+/* Define styles for "Learn More" link and paragraph */
 .learn-more,
 .use-our-advanced {
-  align-self: stretch;
-  position: relative;
   line-height: 24px;
 }
+
 .learn-more {
   text-decoration: underline;
   white-space: nowrap;
 }
+
+/* Define styles for container holding heading, paragraph, and link */
 .discover-your-perfect-home-parent {
-  align-self: stretch;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   gap: 16px;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
 }
+
+/* Define styles for container holding image and content */
 .frame-container,
 .image-199-parent {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
   max-width: 100%;
 }
+
+/* Define styles for container holding content */
 .frame-container {
   flex: 1;
   flex-direction: column;
@@ -47,15 +53,18 @@
   box-sizing: border-box;
   min-width: 390px;
 }
+
+/* Define styles for parent container */
 .image-199-parent {
   width: 1000px;
-  flex-direction: row;
   gap: 80px;
   text-align: left;
   font-size: 20px;
   color: rgba(7, 26, 69, 0.7);
   font-family: Lato;
 }
+
+/* Media queries for responsiveness */
 @media screen and (max-width: 1100px) {
   .image-199-icon {
     flex: 1;
@@ -65,6 +74,7 @@
     gap: 80px 40px;
   }
 }
+
 @media screen and (max-width: 750px) {
   .discover-your-perfect {
     font-size: 38px;
@@ -75,4 +85,9 @@
   .image-199-parent {
     gap: 80px 20px;
   }
+}
+
+/* Float left and right alternately */
+.image-199-parent:nth-child(odd) {
+  flex-direction: row-reverse;
 }

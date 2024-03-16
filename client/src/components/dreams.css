@@ -1,18 +1,27 @@
+/* Styles for connecting dreams to reality text */
 .connecting-dreams-to {
   margin: 0;
   font-weight: 800;
 }
+
+/* Styles for italicized text within your-premier class */
 .your-premier1 {
   font-weight: 700;
 }
+
+/* Styles for your-premier class */
 .your-premier {
   margin: 0;
   color: #2c8fb5;
 }
+
+/* Styles for real-estate-marketplace text */
 .real-estate-marketplace {
   margin: 0;
   font-weight: 800;
 }
+
+/* Styles for connecting-dreams-to-container class */
 .connecting-dreams-to-container {
   margin: 0;
   align-self: stretch;
@@ -22,6 +31,8 @@
   line-height: 80px;
   font-family: inherit;
 }
+
+/* Styles for where-every-search text */
 .where-every-search {
   width: 335px;
   position: relative;
@@ -30,6 +41,8 @@
   display: inline-block;
   max-width: 100%;
 }
+
+/* Styles for connecting-dreams-to-reality-y-parent class */
 .connecting-dreams-to-reality-y-parent {
   align-self: stretch;
   display: flex;
@@ -39,6 +52,8 @@
   gap: 24px;
   max-width: 100%;
 }
+
+/* Styles for explore2 text */
 .explore2 {
   position: relative;
   font-size: 20px;
@@ -48,6 +63,8 @@
   color: #fff;
   text-align: left;
 }
+
+/* Styles for arrow-forward-resting-icon2 */
 .arrow-forward-resting-icon2 {
   height: 24px;
   width: 24px;
@@ -56,6 +73,8 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
+/* Styles for primary-button1 */
 .primary-button1 {
   cursor: pointer;
   border: 0;
@@ -71,10 +90,14 @@
   gap: 16px;
   white-space: nowrap;
 }
+
+/* Hover styles for primary buttons */
 .primary-button1:hover,
 .primary-button2:hover {
   background-color: #5496ff;
 }
+
+/* Styles for explore3 text */
 .explore3 {
   position: relative;
   font-size: 20px;
@@ -84,6 +107,8 @@
   color: #fff;
   text-align: left;
 }
+
+/* Styles for arrow-forward-resting-icon3 */
 .arrow-forward-resting-icon3 {
   height: 24px;
   width: 24px;
@@ -92,6 +117,8 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
+/* Styles for primary-button2 */
 .primary-button2 {
   cursor: pointer;
   border: 0;
@@ -107,6 +134,8 @@
   gap: 13px;
   white-space: nowrap;
 }
+
+/* Styles for parent containers */
 .frame-parent,
 .frame-section,
 .primary-button-parent {
@@ -114,15 +143,21 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
+/* Styles for primary-button-parent */
 .primary-button-parent {
   flex-direction: row;
   align-items: flex-start;
   gap: 80px;
 }
+
+/* Common styles for frame-parent and frame-section */
 .frame-parent,
 .frame-section {
   box-sizing: border-box;
 }
+
+/* Styles for frame-parent */
 .frame-parent {
   width: 1257px;
   flex-direction: column;
@@ -130,6 +165,8 @@
   padding: 0 20px 0 0;
   gap: 40px;
 }
+
+/* Styles for frame-section */
 .frame-section {
   width: 1341px;
   flex-direction: row;
@@ -140,28 +177,38 @@
   color: #071a45;
   font-family: Lato;
 }
+
+/* Media query for smaller screens */
 @media screen and (max-width: 750px) {
+  /* Adjusting font size and line height for smaller screens */
   .connecting-dreams-to-container {
     font-size: 58px;
     line-height: 64px;
   }
+  /* Adjusting gap for primary buttons parent */
   .primary-button-parent {
     flex-wrap: wrap;
     gap: 80px 40px;
   }
+  /* Adjusting gap for frame-parent */
   .frame-parent {
     gap: 20px 40px;
   }
 }
+
+/* Media query for even smaller screens */
 @media screen and (max-width: 450px) {
+  /* Further adjustments for font size and line height */
   .connecting-dreams-to-container {
     font-size: 43px;
     line-height: 48px;
   }
+  /* Adjusting font size and line height for where-every-search text */
   .where-every-search {
     font-size: 16px;
     line-height: 19px;
   }
+  /* Adjusting gap for primary buttons parent */
   .primary-button-parent {
     gap: 80px 20px;
   }

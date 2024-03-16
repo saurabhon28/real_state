@@ -1,3 +1,4 @@
+/* Heading */
 .why-choose-xyz {
   margin: 0;
   position: relative;
@@ -5,6 +6,8 @@
   font-weight: 700;
   font-family: inherit;
 }
+
+/* Flexbox styles for data storage */
 .data-storage {
   align-self: stretch;
   display: flex;
@@ -12,22 +15,30 @@
   align-items: flex-start;
   justify-content: center;
 }
+
+/* Rule set child */
 .rule-set-child {
   height: 400px;
   width: 0;
   position: relative;
   object-fit: contain;
 }
+
+/* Model trainer */
 .model-trainer {
   position: relative;
   line-height: 90px;
   font-weight: 300;
 }
+
+/* Search and filters */
 .search-and-filters {
   position: relative;
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/* Regression model */
 .regression-model {
   width: 16px;
   height: 16px;
@@ -35,6 +46,8 @@
   border-radius: 4px;
   background-color: #2c8fb5;
 }
+
+/* Evaluation engine and visualization engine */
 .evaluation-engine,
 .visualization-engine {
   display: flex;
@@ -42,19 +55,27 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+/* Gap between elements in evaluation engine */
 .evaluation-engine {
   gap: 40px;
   font-size: 20px;
 }
+
+/* Gap between elements in visualization engine */
 .visualization-engine {
   gap: 8px;
 }
+
+/* Tailored searches */
 .tailored-searches-to {
   align-self: stretch;
   position: relative;
   font-size: 16px;
   color: rgba(7, 26, 69, 0.7);
 }
+
+/* Decision tree builder and graph builder */
 .decision-tree-builder,
 .graph-builder {
   display: flex;
@@ -62,32 +83,45 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+/* Flexbox styles for graph builder */
 .graph-builder {
   align-self: stretch;
   gap: 64px;
 }
+
+/* Flexbox styles for decision tree builder */
 .decision-tree-builder {
   flex: 1;
   padding: 50.5px 0 0;
 }
+
+/* Rule set and rule set parent */
 .rule-set,
 .rule-set-parent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap; /* Allow services to wrap to the next line */
 }
+
+/* Rule set */
 .rule-set {
-  height: 400px;
+  height: auto; /* Change height to auto to accommodate variable content */
   width: 258px;
   justify-content: flex-start;
   gap: 24px;
 }
+
+/* Rule set parent */
 .rule-set-parent {
   align-self: stretch;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 20px;
   font-size: 80px;
 }
+
+/* Network connector and user interface */
 .network-connector,
 .user-interface {
   display: flex;
@@ -96,6 +130,8 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
+/* User interface */
 .user-interface {
   flex: 1;
   background-color: #d6e9f0;
@@ -104,6 +140,8 @@
   padding: 80px 72px;
   gap: 80px;
 }
+
+/* Network connector */
 .network-connector {
   align-self: stretch;
   flex-direction: row;
@@ -112,4 +150,14 @@
   font-size: 72px;
   color: #071a45;
   font-family: Lato;
+}
+
+/* Service visualization */
+.visualization-engine {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 64px; /* Adjust gap between services */
+  width: 100%; /* Ensure services take full width */
 }

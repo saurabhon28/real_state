@@ -1,60 +1,67 @@
+/* Global styles */
 .xyz3 {
-  font-weight: 800;
+  font-weight: 800; /* Set font weight to 800 */
 }
 .span1 {
-  font-family: Lato;
+  font-family: Lato; /* Set font family to Lato */
 }
 .xyz2 {
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01em; /* Set letter spacing to 0.01em */
 }
 .industries1 {
-  letter-spacing: 0.04em;
-  font-weight: 300;
+  letter-spacing: 0.04em; /* Set letter spacing to 0.04em */
+  font-weight: 300; /* Set font weight to 300 */
 }
 .xyz-industries1 {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-family: inherit;
+  margin: 0; /* Reset margin */
+  position: relative; /* Set position to relative */
+  font-size: inherit; /* Inherit font size */
+  font-family: inherit; /* Inherit font family */
 }
 .xyz-industries-where {
-  align-self: stretch;
-  position: relative;
-  font-size: 16px;
-  line-height: 20px;
-  color: #c9c6c2;
+  align-self: stretch; /* Stretch alignment */
+  position: relative; /* Set position to relative */
+  font-size: 16px; /* Set font size to 16px */
+  line-height: 20px; /* Set line height to 20px */
+  color: #c9c6c2; /* Set text color */
 }
 .error-handler {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 24px;
+  align-self: stretch; /* Stretch alignment */
+  display: flex; /* Set display to flex */
+  flex-direction: column; /* Set flex direction to column */
+  align-items: flex-start; /* Align items to flex-start */
+  justify-content: flex-start; /* Justify content to flex-start */
+  gap: 24px; /* Set gap to 24px */
 }
+
+/* Additional styles */
 .explore4 {
-  position: relative;
-  font-size: 20px;
-  letter-spacing: 0.01em;
-  line-height: 26px;
-  font-family: Lato;
-  color: #fff;
-  text-align: left;
+  position: relative; /* Set position to relative */
+  font-size: 20px; /* Set font size to 20px */
+  letter-spacing: 0.01em; /* Set letter spacing to 0.01em */
+  line-height: 26px; /* Set line height to 26px */
+  font-family: Lato; /* Set font family to Lato */
+  color: #fff; /* Set text color to white */
+  text-align: left; /* Align text to left */
 }
+
 .arrow-forward-resting-icon4 {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  flex-shrink: 0;
+  width: 24px; /* Set width to 24px */
+  height: 24px; /* Set height to 24px */
+  position: relative; /* Set position to relative */
+  border-radius: 16px; /* Set border radius to 16px */
+  overflow: hidden; /* Hide overflow */
+  flex-shrink: 0; /* Prevent shrinking */
 }
+
 .user-interface-builder {
-  height: 25px;
-  flex-direction: column;
-  padding: 1px 0 0;
-  box-sizing: border-box;
+  height: 25px; /* Set height to 25px */
+  flex-direction: column; /* Set flex direction to column */
+  padding: 1px 0 0; /* Set padding */
+  box-sizing: border-box; /* Include padding and border in the total width and height */
 }
+/* Rest of the CSS code goes here */
+
 .data-transformer,
 .secondary-button1,
 .user-interface-builder {

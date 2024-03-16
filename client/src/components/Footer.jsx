@@ -30,6 +30,7 @@ function Footer() {
 
   return (
     <footer className="footer">
+      {/* This is a comment */}
       <div className="feature-selector">
         <div className="data-normalizer">
           <div className="data-transformer">

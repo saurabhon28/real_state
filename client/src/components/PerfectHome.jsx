@@ -1,10 +1,11 @@
-import "./perfectHome.css";
-import image1 from "../assets/images/img1.png";
+import "./perfectHome.css"; // Import CSS file for styling
+import image1 from "../assets/images/img1.png"; // Import images
 import image2 from "../assets/images/img2.png";
 import image3 from "../assets/images/img3.png";
 import image4 from "../assets/images/img4.png";
 
 function PerfectHome() {
+  // Data for different features related to finding or showcasing properties
   const homeData = [
     {
       heading: "Discover Your Perfect Home",
@@ -36,10 +37,13 @@ function PerfectHome() {
     },
   ];
 
+  // Render the component
   return (
     <div>
+      {/* Map through the homeData array to render each feature */}
       {homeData.map((home, index) => (
         <div key={index} className="image-199-parent">
+          {/* Render the image for each feature */}
           <img
             className="image-199-icon"
             loading="lazy"
@@ -47,12 +51,14 @@ function PerfectHome() {
             src={home.image} // Use the image from home object
           />
           <div className="frame-container">
+            {/* Render the heading and paragraph for each feature */}
             <div className="discover-your-perfect-home-parent">
               <h1 className="discover-your-perfect">{home.heading}</h1>{" "}
               {/* Use heading from home object */}
               <div className="use-our-advanced">
                 {home.paragraph} {/* Use paragraph from home object */}
               </div>
+              {/* Render "Learn More" link for each feature */}
               <div className="learn-more">{home.learnMore}</div>{" "}
               {/* Use learnMore from home object */}
             </div>
